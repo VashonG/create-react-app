@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ElevatedCard, Column, Row, Typography, HorizontalSpacer, Tag } from '@cred/neopop-web/lib/components';
 import { mainColors, colorPalette, fontNameSpaces } from '@cred/neopop-web/lib/primitives';
 import styled from 'styled-components';
-import CustomButton from '../ui/ElevatedButton';
+import CustomButton from '../Button/ElevatedButton';
 import Modal from '../LoanWidget/Modal';
 
 const ContentWrapper = styled.div`
@@ -85,6 +85,7 @@ const Card = () => {
             <HorizontalSpacer n={2} />
             <CustomButton
               fullWidth={true}
+              kind="elevated" // Add the kind property here
               variant="primary"
               onClick={handleButtonClick}
             >
