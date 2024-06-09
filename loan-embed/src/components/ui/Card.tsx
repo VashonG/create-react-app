@@ -3,7 +3,7 @@ import { ElevatedCard, Column, Row, Typography, HorizontalSpacer, Tag } from '@c
 import { mainColors, colorPalette, fontNameSpaces } from '@cred/neopop-web/lib/primitives';
 import styled from 'styled-components';
 import CustomButton from '../Button/ElevatedButton';
-import Modal from '../LoanWidget/Modal';
+import Modal from '../Form/Modal';
 
 const ContentWrapper = styled.div`
   padding: 10px;
